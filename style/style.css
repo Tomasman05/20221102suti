@@ -102,8 +102,8 @@ body {
     background-color: red;
     color: white;
 }
-#accept:checked {
-    display: none;
+#accept:checked  {
+    visibility: hidden;
 }
 #nav ul::after{
     content: '';
