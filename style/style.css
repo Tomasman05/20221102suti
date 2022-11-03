@@ -102,8 +102,11 @@ body {
     background-color: red;
     color: white;
 }
-#accept:checked #cookie-accept  {
+#acceptgomb{
     display: none;
+}
+#acceptgomb:checked ~ #cookie-accept  {
+   display: none;
 }
 #nav ul::after{
     content: '';
